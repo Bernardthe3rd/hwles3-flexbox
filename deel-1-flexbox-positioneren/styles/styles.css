@@ -22,7 +22,17 @@
 /*Opdracht 1.3*/
 .opdracht-3 ul {
     display: flex;
+    height: 100%;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-3-left{
+    align-self: flex-start;
+}
+
+.item-3-center {
+    align-self: center;
 }
 
 .item-3-right {
@@ -35,4 +45,11 @@
     flex-direction: row;
     gap: 10px;
     flex-wrap: wrap;
+}
+
+/*Opdracht 1.5*/
+.opdracht-5 div {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
 }
