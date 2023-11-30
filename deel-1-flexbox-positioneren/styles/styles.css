@@ -9,3 +9,14 @@
     justify-content: space-between;
 }
 
+/*Opdracht 1.2*/
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-2 ul li {
+    flex-basis: 250px;
+}
+
+/*Opdracht 1.3*/
