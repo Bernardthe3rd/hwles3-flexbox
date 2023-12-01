@@ -9,6 +9,8 @@ body {
 main {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 header , footer {
@@ -17,23 +19,22 @@ header , footer {
     flex-shrink: 0;
 }
 
-article , nav , aside {
-    flex-basis: 100vw;
-}
-
 article {
-    flex-basis: auto;
+    flex-basis: 60vw;
     flex-grow: 3;
     flex-shrink: 1;
 }
 
-main , nav , aside {
-    flex-basis: auto;
+nav {
+    flex-basis: 20vw;
     flex-grow: 1;
     flex-shrink: 0;
+    order: 1;
 }
 
-nav {
-    order: 1;
+aside {
+    flex-basis: 20vw;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
