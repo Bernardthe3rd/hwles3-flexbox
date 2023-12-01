@@ -7,6 +7,8 @@ body {
 
 nav {
     flex-basis: 20vw;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .outer-col-2 {
@@ -17,6 +19,8 @@ nav {
 
 header {
     flex-basis: 20vh;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .inner-row {
@@ -32,13 +36,19 @@ header {
 
 aside {
     flex-basis: 20vw;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 article {
     flex-basis: 60vh;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 footer {
     flex-basis: 20vh;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
