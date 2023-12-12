@@ -5,10 +5,18 @@ body {
     min-height: 100vh;
 }
 
-div , main {
+div  {
     display: flex;
     flex-direction: column;
     flex-basis: 100vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 1;
 }

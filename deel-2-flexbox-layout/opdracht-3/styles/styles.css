@@ -26,7 +26,7 @@ main {
 }
 
 article {
-    flex-basis: 60vw;
+    flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 1;
 }
